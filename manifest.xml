@@ -9,7 +9,7 @@
   <project path="device/xiaomi/merlinx" name="mk7x7/android_device_xiaomi_merlinx.git" remote="hub" revision="lineage-20"  />
         
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="mk7x7/device_mt6768-common" remote="hub" revision="13"  />
+  <project path="device/xiaomi/mt6768-common" name="mk7x7/device_mt6768-common" remote="hub" revision="13-wip"  />
   
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="mt6768-dev/android_kernel_xiaomi_mt6768-legacy.git" remote="hub" revision="lineage-20" />
