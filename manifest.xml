@@ -19,10 +19,6 @@
   <project path="vendor/xiaomi/lancelot" name="mt6768-dev/proprietary_vendor_xiaomi_lancelot.git" remote="hub" revision="lineage-20"  />
   <project path="vendor/xiaomi/merlinx" name="mt6768-dev/proprietary_vendor_xiaomi_merlinx.git" remote="hub" revision="lineage-20"  />
 
-  <!-- Vendor Lineage -->
-  <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="mk7x7/android_vendor_lineage" remote="hub" revision="lineage-20.0"  />
-
   <!-- Trebuchet -->
   <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Trebuchet" name="mk7x7/android_packages_apps_Trebuchet" remote="hub" revision="lineage-20.0"  />
