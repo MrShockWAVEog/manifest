@@ -5,31 +5,17 @@
 <remote name="hub" fetch="https://github.com" />
         
   <!-- Device Trees -->
-  <project path="device/xiaomi/lancelot" name="mk7x7/android_device_xiaomi_lancelot.git" remote="hub" revision="lineage-20"  />
-  <project path="device/xiaomi/merlinx" name="mk7x7/android_device_xiaomi_merlinx.git" remote="hub" revision="lineage-20"  />
+  <project path="device/xiaomi/merlinx" name="mt6768-dev/android_device_xiaomi_merlinx.git" remote="hub" revision="lineage-23.2"  />
         
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="mk7x7/device_mt6768-common" remote="hub" revision="13"  />
+  <project path="device/xiaomi/mt6768-common" name="mt6768-dev/android_device_xiaomi_mt6768-common.git" remote="hub" revision="lineage-23.2"  />
   
   <!-- Kernel Trees-->
-  <project path="kernel/xiaomi/mt6768" name="mt6768-dev/android_kernel_xiaomi_mt6768-legacy.git" remote="hub" revision="lineage-20" />
+  <project path="kernel/xiaomi/mt6768" name="mt6768-dev/android_kernel_xiaomi_mt6768.git" 
+remote="hub" revision="lineage-23.2" />
         
   <!-- Vendor Tree -->
-  <project path="vendor/xiaomi/mt6768-common" name="hipexscape/proprietary_vendor_xiaomi_mt6768-common.git" remote="hub" revision="13"  />
-  <project path="vendor/xiaomi/lancelot" name="mt6768-dev/proprietary_vendor_xiaomi_lancelot.git" remote="hub" revision="lineage-20"  />
-  <project path="vendor/xiaomi/merlinx" name="mt6768-dev/proprietary_vendor_xiaomi_merlinx.git" remote="hub" revision="lineage-20"  />
+  <project path="vendor/xiaomi/mt6768-common" name="mt6768-dev/proprietary_vendor_xiaomi_mt6768-common.git" remote="hub" revision="lineage-23.2"  />
+  <project path="vendor/xiaomi/merlinx" name="mt6768-dev/proprietary_vendor_xiaomi_merlinx.git" remote="hub" revision="lineage-23.2"  />
 
-  <!-- Trebuchet -->
-  <remove-project name="LineageOS/android_packages_apps_Trebuchet" />
-  <project path="packages/apps/Trebuchet" name="mk7x7/android_packages_apps_Trebuchet" remote="hub" revision="lineage-20.0"  />
-        
-  <!-- Framework Base -->
-  <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="mk7x7/android_frameworks_base" remote="hub" revision="lineage-20.0"  />
-
- <!-- ViperFX -->
-  <project path="packages/apps/ViPER4AndroidFX" name="mk7x7/packages_apps_ViPER4AndroidFX" remote="hub" revision="v4a"  />
-
-  <!-- Custom fonts -->
-  <project path="vendor/addons" name="mk7x7/android_vendor_addons" remote="hub" revision="main"  />
 </manifest>
