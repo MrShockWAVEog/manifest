@@ -6,7 +6,8 @@
         
   <!-- Device Trees -->
   <project path="device/xiaomi/merlinx" name="mt6768-dev/android_device_xiaomi_merlinx.git" remote="hub" revision="lineage-23.2"  />
-        
+  <project path="device/xiaomi/lancelot" name="mt6768-dev/android_device_xiaomi_lancelot.git" remote="hub" revision="lineage-23.2"  />
+
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="mk7x7/android_device_xiaomi_mt6768-common.git" remote="hub" revision="lineage-23.2"  />
   
@@ -16,5 +17,6 @@
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/mt6768-common" name="mt6768-dev/proprietary_vendor_xiaomi_mt6768-common.git" remote="hub" revision="lineage-23.2"  />
   <project path="vendor/xiaomi/merlinx" name="mt6768-dev/proprietary_vendor_xiaomi_merlinx.git" remote="hub" revision="lineage-23.2"  />
+  <project path="vendor/xiaomi/lancelot" name="mt6768-dev/proprietary_vendor_xiaomi_lancelot.git" remote="hub" revision="lineage-23.2"  />
 
 </manifest>
