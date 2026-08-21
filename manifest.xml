@@ -5,11 +5,11 @@
 <remote name="hub" fetch="https://github.com" />
         
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="MrShockWAVEog/android_device_xiaomi_merlinx.git" remote="hub" revision="inf"  />
-  <project path="device/xiaomi/lancelot" name="MrShockWAVEog/android_device_xiaomi_lancelot.git" remote="hub" revision="inf"  />
+  <project path="device/xiaomi/merlinx" name="MrShockWAVEog/android_device_xiaomi_merlinx.git" remote="hub" revision="pos"  />
+  <project path="device/xiaomi/lancelot" name="MrShockWAVEog/android_device_xiaomi_lancelot.git" remote="hub" revision="pos"  />
 
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="MrShockWAVEog/android_device_xiaomi_mt6768-common.git" remote="hub" revision="inf"  />
+  <project path="device/xiaomi/mt6768-common" name="MrShockWAVEog/android_device_xiaomi_mt6768-common.git" remote="hub" revision="pos"  />
   
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="MrShockWAVEog/android_kernel_xiaomi_mt6768-s.git" remote="hub" revision="shockwave" />
