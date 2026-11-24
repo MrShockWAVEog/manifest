@@ -3,7 +3,6 @@
 <manifest>
 
 <remote name="hub" fetch="https://github.com" />
-<remote name="github-private" fetch="ssh://git@github.com/" />
         
   <!-- Device Trees -->
   <project path="device/xiaomi/merlinx" name="MrShockWAVEog/android_device_xiaomi_merlinx.git" remote="hub" revision="lun"  />
@@ -12,12 +11,8 @@
   <!-- Common Device Tree -->
   <project path="device/xiaomi/mt6768-common" name="MrShockWAVEog/android_device_xiaomi_mt6768-common.git" remote="hub" revision="lun"  />
   
-  <!-- Private Kernel Tree -->
-  <project
-      path="kernel/xiaomi/mt6768"
-      name="MrShockWAVEog/shockwave_kernel_xioami_mt6768_k419.git"
-      remote="github-private"
-      revision="lineage-24.0" />
+  <!-- Kernel Trees-->
+  <project path="kernel/xiaomi/mt6768" name="MrShockWAVEog/shockwave_kernel_xiaomi_mt6768.git" remote="hub" revision="17.0" />
         
   <!-- Vendor Tree -->
   <project path="vendor/xiaomi/mt6768-common" name="mt6768-dev/proprietary_vendor_xiaomi_mt6768-common.git" remote="hub" revision="lineage-23.2"  />
